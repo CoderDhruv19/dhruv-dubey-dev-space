@@ -101,7 +101,7 @@ const Hero = () => {
               <div className="w-60 h-60 md:w-72 md:h-72 relative z-10">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-portfolio-accent to-pink-500 blur-md opacity-50 animate-pulse-glow"></div>
                 <Avatar className="w-full h-full border-4 border-portfolio-secondary">
-                  <AvatarImage src="/placeholder.svg" alt="Dhruv Dubey" />
+                  <AvatarImage src="https://i.postimg.cc/htfHsY0j/3503-AA77-763-E-464-D-A56-C-A4-E218-C3-F09-D.jpg" alt="Dhruv Dubey" />
                   <AvatarFallback className="bg-portfolio-secondary text-3xl">
                     DD
                   </AvatarFallback>

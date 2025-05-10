@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -18,35 +19,35 @@ const Projects = () => {
     {
       title: "Blog Writing App",
       description: "A Twitter clone microblogging platform with features for content creation, following users, and engaging with posts.",
-      image: "https://placehold.co/600x400/1f1f1f/e0e0e0?text=Blog+App",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&q=80",
       tags: ["React", "Node.js", "MongoDB"],
       githubUrl: "https://github.com/CoderDhruv19",
     },
     {
       title: "YouTube Clone (Backend)",
       description: "A robust backend API that mimics YouTube's core functionality including video uploads, user management, and comments.",
-      image: "https://placehold.co/600x400/1f1f1f/e0e0e0?text=YouTube+Clone",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80",
       tags: ["Node.js", "Express", "MongoDB"],
       githubUrl: "https://github.com/CoderDhruv19",
     },
     {
       title: "Amazon Clone",
       description: "A full-featured e-commerce platform modeled after Amazon with product listings, search, cart, and checkout functionality.",
-      image: "https://placehold.co/600x400/1f1f1f/e0e0e0?text=Amazon+Clone",
+      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
       tags: ["React", "Firebase", "Stripe"],
       githubUrl: "https://github.com/CoderDhruv19",
     },
     {
       title: "Netflix Clone",
       description: "A streaming service interface with movie browsing, trailer previews, and user recommendation features.",
-      image: "https://placehold.co/600x400/1f1f1f/e0e0e0?text=Netflix+Clone",
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=600&q=80",
       tags: ["React", "API Integration"],
       githubUrl: "https://github.com/CoderDhruv19",
     },
     {
       title: "Mini Apps Collection",
       description: "A collection of utility applications including BMI Calculator, Rock Paper Scissors Game, and Currency Converter.",
-      image: "https://placehold.co/600x400/1f1f1f/e0e0e0?text=Mini+Apps",
+      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&q=80",
       tags: ["JavaScript", "HTML/CSS"],
       githubUrl: "https://github.com/CoderDhruv19",
     }
@@ -69,7 +70,7 @@ const Projects = () => {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
               </div>
               
