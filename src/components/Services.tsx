@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Layout, Server, Shield, Mail } from "lucide-react";
 
